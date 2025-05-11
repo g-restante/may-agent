@@ -3,3 +3,4 @@ langchain-ollama
 langchain-chroma
 pydantic_settings
 python-multipart
+streamlit

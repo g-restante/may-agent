@@ -5,13 +5,13 @@ from ask import service
 router = APIRouter()
 
 class AnswerModel(BaseModel):
-    status: str
+    code: str
     body: str
 
-@router.get("/ask", response_model=AnswerModel, status_code=200)
+@router.get("", response_model=AnswerModel, status_code=200)
 async def ask(question: str):
     answer = service.ask(question)
     return dict(
-        status = "success",
+        code = "success",
         body = answer
     )

@@ -10,12 +10,12 @@
             "request": "launch",
             "module": "uvicorn",
             "args": [
-                "src.ask_my_docs.main:app",
+                "src.may_agent.main:app",
                 "--reload"
             ],
             "jinja": true,
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/src/ask_my_docs"
+                "PYTHONPATH": "${workspaceFolder}/src/may_agent"
             }
         }
     ]

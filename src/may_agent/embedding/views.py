@@ -5,7 +5,7 @@ from embedding import service
 router = APIRouter()
 
 class UploadStatus(BaseModel):
-    status: str
+    code: str
     id: str
 
 @router.post("/upload", response_model=UploadStatus, status_code=202)
@@ -17,6 +17,6 @@ async def upload(file: UploadFile):
             detail="File upload failed. Please check the file format and try again."
         )
     return dict(
-        status = "success" if outcome else "failed",
+        code = "success" if outcome else "failed",
         id=file.filename
     )
