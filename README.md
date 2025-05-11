@@ -10,6 +10,7 @@ MayAgentAI is an innovative and intelligent assistant designed to help you inter
 - **FastAPI Backend**: A robust and scalable API for handling requests.
 - **Chroma Vector Store**: Efficient storage and retrieval of document embeddings.
 - **Customizable**: Easily extend and adapt the project to your needs.
+- **Upcoming Features**: Development is underway to support reading and processing PDFs, audio, video, images ecc.
 
 ## How It Works 🛠️
 
@@ -23,36 +24,46 @@ MayAgentAI is an innovative and intelligent assistant designed to help you inter
 - **[FastAPI](https://fastapi.tiangolo.com/)**: A modern, fast (high-performance) web framework for building APIs.
 - **[Streamlit](https://streamlit.io/)**: For creating an intuitive and interactive user interface.
 - **[Chroma](https://www.trychroma.com/)**: A vector database for efficient document retrieval.
-- **Ollama Models**: State-of-the-art AI models for embeddings and language understanding.
+- **[Ollama](https://ollama.com/)**: State-of-the-art AI models for embeddings and language understanding.
 
 ## Installation & Setup ⚙️
 
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/may-agent.git
-cd may-agent
-```
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Run the backend:
-```bash
-uvicorn src.may_agent.main:app --reload
-```
-4. Run the Streamlit interface:
-```bash
-streamlit run src/may_agent/app.py
-```
 
-## Access the app:
-- Backend API: http://localhost:8000
-- Streamlit Interface: http://localhost:8501
+    ```bash
+    git clone https://github.com/your-username/may-agent.git
+    cd may-agent
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the backend:
+
+    ```bash
+    uvicorn src.may_agent.main:app --reload
+    ```
+
+4. Run the Streamlit interface:
+
+    ```bash
+    streamlit run src/may_agent/app.py
+    ```
+
+## Access the app
+
+- Backend API: <http://localhost:8000>
+- Streamlit Interface: <http://localhost:8501>
 
 ## License 📜
+
 This project is licensed under the Apache License 2.0.
 
 ## 🌟 Why Choose MayAgentAI?
+
 MayAgentAI is more than just a tool—it's your personal assistant for document management and knowledge extraction. With its powerful AI capabilities and easy-to-use interface, you'll save time and unlock the full potential of your data.
 
 Give it a try today and experience the future of document interaction!
