@@ -31,7 +31,7 @@ MayAgentAI is an innovative and intelligent assistant designed to help you inter
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/may-agent.git
+    git clone https://github.com/g-restante/may-agent.git
     cd may-agent
     ```
 
