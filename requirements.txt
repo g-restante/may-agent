@@ -1,6 +1,12 @@
+fastapi
+pydantic
+streamlit
 langchain
 langchain-ollama
 langchain-chroma
 pydantic_settings
 python-multipart
 streamlit
+SpeechRecognition
+pytesseract
+filetype
